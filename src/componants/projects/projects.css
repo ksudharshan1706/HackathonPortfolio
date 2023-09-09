@@ -1,0 +1,31 @@
+.ProjectCard_container__KPNV9 {
+    display: flex;
+    margin: 1px;
+    max-width: 90vw;
+    padding: 2em;
+    width: 28em;
+}
+.ProjectCard_icon__HRk3D {
+    font-size: 3em;
+    margin: 0 0.125em;
+}
+
+.main{
+    background-color:#133E4D;
+}
+.ProjectCard_button__U4tNs {
+    margin: 0.25em;
+} 
+
+.projectsContainer{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.svg{
+    display: flex;
+    justify-content: space-between;
+}

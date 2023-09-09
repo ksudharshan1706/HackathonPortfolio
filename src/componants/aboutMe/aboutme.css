@@ -1,0 +1,26 @@
+.main1{
+    background-color:#133E4D;;
+    color: white;
+    /* height: 100vh !important; */
+}
+.Aboutme{
+    position:relative;
+    top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.myDescription{
+    width: 50%;
+    /* width: 500px; */
+}
+.contactFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+

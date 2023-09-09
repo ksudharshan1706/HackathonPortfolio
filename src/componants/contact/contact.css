@@ -1,0 +1,11 @@
+.container1{
+    background-color:#133E4D;
+    width: 100vw;
+    height: 91.59vh;
+    color: white;
+}
+.contactsection{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
