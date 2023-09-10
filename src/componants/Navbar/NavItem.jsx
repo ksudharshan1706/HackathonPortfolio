@@ -7,8 +7,8 @@ const NavItem = ({Item}) => {
     <li >
       {
         Item.link?
-        <a style={{color:"black",fontSize:"large"}} href={Item.link?Item.link:""} target={Item.link?"_blank":""}>{Item.name.toUpperCase()}</a>:
-        <a style={{color:"black",fontSize:"large"}} href={`/${Item.name}`}>{Item.name.toUpperCase()}</a>
+        <a style={{color:"black",fontSize:"large"}} href={Item.link?Item.link:""} target={Item.link?"_blank":""}><h5>{Item.name.toUpperCase()}</h5></a>:
+        <a style={{color:"black",fontSize:"large"}} href={`/${Item.name}`}><h5>{Item.name.toUpperCase()}</h5></a>
       }
     </li>
   )

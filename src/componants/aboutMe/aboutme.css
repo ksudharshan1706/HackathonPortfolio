@@ -1,10 +1,11 @@
 .main1{
-    background-color:#133E4D;;
+    background-color:#133E4D;
     color: white;
     /* height: 100vh !important; */
 }
 .Aboutme{
     position:relative;
+    background-color:#133E4D;
     top: 40px;
     width: 100%;
     display: flex;

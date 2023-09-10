@@ -27,7 +27,7 @@ const MyProjects = () => {
             projectaltName :"Netflix-Clone Website",
             projectDesc:"Netflix-Clone: Your on-demand streaming companion, delivering endless entertainment reminiscent of your favorite platform.",
             projectGithublink:"https://github.com/ksudharshan1706/Netflixifyclone/tree/master",
-            projectLiveLink:"https://jazzy-sfogliatella-7c9749.netlify.app/register"  
+            projectLiveLink:"https://shimmering-crostata-ee9569.netlify.app/register"  
         },
         {
             projectName:"SocialMedia Website",

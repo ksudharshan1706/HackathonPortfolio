@@ -1,9 +1,13 @@
 .ProjectCard_container__KPNV9 {
     display: flex;
-    margin: 1px;
+    margin: 20px;
     max-width: 90vw;
     padding: 2em;
     width: 28em;
+}
+.ProjectCard_container__KPNV9:hover{
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1); 
 }
 .ProjectCard_icon__HRk3D {
     font-size: 3em;

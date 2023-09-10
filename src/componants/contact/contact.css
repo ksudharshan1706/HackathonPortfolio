@@ -1,11 +1,19 @@
 .container1{
     background-color:#133E4D;
     width: 100vw;
-    height: 91.59vh;
+    height: 93.3vh;
     color: white;
 }
 .contactsection{
      display: flex;
      justify-content: center;
      align-items: center;
+     
+}
+.ProjectCard_container__KPNV9 {
+    display: flex;
+    margin: 20px;
+    max-width: 90vw;
+    padding: 2em;
+    width: 28em;
 }
