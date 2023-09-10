@@ -68,12 +68,12 @@
     .navigation-menu ul {
       position: absolute;
       top: 60px;
-      left: 0;
+      left: -20px;
       margin-left: 80%;
       flex-direction: column;
-      width: 20%;
+      width: auto;
       height: 250px;
-      background-color:#ede8d8;
+      background-color:white;
       border-radius: 2px solid black;
       /* border-top: 1px solid black; */
     }
@@ -101,6 +101,13 @@
   @media screen and (max-width: 768px) {
     .navigation-menu.expanded ul {
       display: block;
+      font-size: small;
       z-index: 9999;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .navigation > .dpImg {
+      display: none;
     }
   }

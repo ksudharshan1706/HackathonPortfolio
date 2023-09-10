@@ -69,25 +69,25 @@ const Skills = () => {
   return (
     <div class="skills">
         <div style={{width:"90%",border:"2px solid"}} className='skillContainer'>
-            <div style={{width:"10%"}} className='Tech'><b>FrontEnd</b></div>
+            <div style={{width:"10%",minWidth:"100px"}} className='Tech'><b>FrontEnd</b></div>
             <div style={{width:"80%"}} className='forSkill'>
                 {FrontEnd.map((skill)=><SkillItem skill = {skill}/>)}
             </div>
         </div>
         <div style={{width:"90%",border:"2px solid"}} className='skillContainer'>
-            <div style={{width:"10%"}} className='Tech'><b>BackEnd</b></div>
+            <div style={{width:"10%",minWidth:"100px"}} className='Tech'><b>BackEnd</b></div>
             <div style={{width:"80%"}} className='forSkill'>
                 {BackEnd.map((skill)=><SkillItem skill = {skill}/>)}
             </div>
         </div>
         <div style={{width:"90%",border:"2px solid"}} className='skillContainer'>
-            <div style={{width:"10%"}} className='Tech'><b>Languages:</b></div>
+            <div style={{width:"10%",minWidth:"100px"}} className='Tech'><b>Languages:</b></div>
             <div style={{width:"80%"}} className='forSkill'>
                 {Languages.map((skill)=><SkillItem skill = {skill}/>)}
             </div>
         </div>
         <div style={{width:"90%",border:"2px solid"}} className='skillContainer'>
-            <div style={{width:"10%"}} className='Tech'><b>DataBase:</b></div>
+            <div style={{width:"10%",minWidth:"100px"}} className='Tech'><b>DataBase:</b></div>
             <div style={{width:"80%"}} className='forSkill'>
                 {Database.map((skill)=><SkillItem skill = {skill}/>)}
             </div>
