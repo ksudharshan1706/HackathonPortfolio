@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        Sudharshan Kamavaram
+        <b>Sudharshan Kamavaram</b>
       </a>
       <img style={{marginLeft:"20px",border:"2px solid", width:"50px",height:"50px",borderRadius:"50%",objectFit:"cover"}} src="https://i.ibb.co/FXbrHp4/Sudharshan.jpg" alt="sudharshan"/>
       <button
